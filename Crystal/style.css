@@ -1,0 +1,533 @@
+body{
+    font-family: Google Sans,sans-serif;
+}
+header{
+    width: 1440px;
+    height: 900px;
+    background: url("./Frame\ 5.png");
+    margin: 0px auto;
+}
+ .navbar{
+    display: flex;
+  justify-content: space-between; /* Distributes space between logo and links */
+  align-items: center;
+}
+.logo_container{
+    width: 199px;
+    height: 64px;
+    top: 30px;
+    left: 50px;
+    display: flex;
+    white-space: nowrap;  
+}
+.group_icon{
+    width: 37.04px;
+    height: 64.04px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 10px; 
+}
+.pop_rock{
+    width: 152px;
+    height: 26px;
+    font-family: Google Sans,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+    text-align: left;
+    display: flex;
+    margin-top: 45px;
+    color: rgba(255, 255, 255, 1);
+    justify-content: center;
+}
+.home_section{
+    width: 338px;
+    height: 30px;
+    margin-bottom: -80px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    white-space: nowrap;
+}
+.home_section a{ 
+ color: rgba(255, 255, 255, 1);
+  margin-left: 40px; /* Space between links */
+  text-decoration: none;
+  font-size: 18px;
+}
+.home_section a:hover {
+    text-decoration: underline;
+  }
+.basket{
+    width: 50px;
+    height: 30px;
+    margin-right: 50px;
+    margin-bottom: -80px;
+    white-space: nowrap;
+    position: relative;
+    display: inline-block;
+}
+.basket_side{
+    width: 14px;
+    height: 14px;
+    margin-top: -20px;
+    padding: 5px;   
+    top: -10px;  /* Adjust this to move the badge above the basket */
+    right: -10px;
+}
+.basket_pic{
+    width: 30px;
+    height: 30px;
+    padding: 3.75px 3.24px 4.6px 3.24px;
+}
+.curved_container{
+    position: relative;
+    
+}
+
+.curved_container svg{
+    top: 90px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    margin-top: -380px;
+}
+
+.card {
+    width: 569px;
+    height: 554px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 50px 0px rgba(120, 143, 156, 0.25);
+    position: absolute;
+    top: 190px;
+    margin-left: 821px;
+    z-index: 100; 
+}
+.card:hover{
+    transform: translateY(-10px);
+
+}
+.card img {
+    width: 362px;
+    height: 362px;
+    top: 223px;
+    margin-left: 90px;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;  
+}
+.card p{
+    width: 350px;
+    height: 24px;
+    top: 653px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    opacity: 0.8;
+}
+.card p span{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+.card svg{
+    width: 97px;
+    height: 40px;
+    margin-top: 75px;
+    position: absolute;
+    
+}
+.heading{
+    width: 707px;
+    height: 123px;
+    margin-top: 220px;
+    margin-left: 50px;
+    
+}
+.heading p{
+    font-family: Google Sans;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: left; 
+    color:  rgba(255, 255, 255, 1);
+   
+}
+.heading p span{
+    font-family: Google Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: left;
+    
+}
+.content .para{
+    width: 400px;
+    height: 72px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: Google Sans ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(49, 84, 109, 1);
+    padding: 4px;
+}
+.btn_shopnow{
+    width: 283px;
+    height: 56px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.btn_shopnow button{
+    width: 180px;
+    height: 56px;
+    background-color:  white ;
+    color: rgba(49, 113, 137, 1);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+.btn_shopnow span{
+    width: 63px;
+    height: 24px;
+    font-family: Google Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:  rgba(49, 113, 137, 1);
+}
+
+/*all product*/
+section{
+    width: 1440px;
+    height: 1084px;
+   background-color: rgb(255,255,255);
+   margin: 0px auto;
+   
+}
+.product_heading{
+    width: 245px;
+    height: 50px;
+    margin: 0px auto;
+    text-align: center;
+    color:  rgba(49, 84, 109, 1);
+    font-family: Google Sans;
+    font-size: 25px;
+    font-weight: 700;
+}
+.filter-sort  {
+    margin-right: 20px;
+    font-size: 16px;
+    display: flex;
+    margin-top: 100px;
+
+}
+.filter{
+    width: 169px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 1px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;   
+}
+.filter strong{
+    color: rgba(49, 84, 109, 1);
+    font-weight: 700;
+
+}
+.filter svg{
+    padding-left: 5px;
+}
+.sort{
+    width: 157px;
+    height: 30px;
+    top: 1050px;
+    left: 319px;
+    padding-left: 50px;
+    border-radius: 1px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+.sort strong {
+    color: rgba(49, 84, 109, 1);
+}
+
+.sort svg{
+    padding-left: 5px;
+}
+
+.all_card{
+   
+    max-width: 1340px; /* Maximum width of the container */
+    width: 100%; /* Ensure the container takes full width available */
+    height: 854px; /* Adjust height automatically */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+    margin-top: 80pxpx; /* Center the container horizontally */
+    box-sizing: border-box; /* Include padding and border in the element's width and height */
+    overflow: hidden; /* Prevent overflow of any child elements */
+    left: 50px;
+    
+}
+
+
+.card1 {
+    width: 280px;
+    height: 380px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card1:hover{
+    transform: translateY(-10px);
+}
+.card1 img {
+    width: 198px;
+    height: 198px;
+    object-fit: cover;
+    margin-bottom: 10px; 
+}
+.card1 p{
+    font-size: 18px;
+    margin: 0px;
+    color: gray;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+.card1 .rate{
+    box-sizing: border-box;
+    font-size: 20px;
+    color:rgba(49, 113, 137, 1);
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.buy_now{
+    width: 180px;
+    height: 56px;
+    background-color:  #75CCEB ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.buy{
+    width: 180px;
+    height: 56px;
+    border: 2px solid #75CCEB;
+    color:  #75CCEB ;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* footer*/
+
+.circle_footer{
+    background-color: #75CCEB;
+}
+
+.button_container{
+   
+    width: 134px;
+    height: 48px;
+    margin-top: -800px;
+   margin-left: 600px;
+    text-align: right;
+}
+.button_container button{
+    width: 134px;
+    height: 48px;
+    border-radius: 18px ;
+    border: 2px solid #75CCEB;
+    color:  #75CCEB ;
+    font-size: 14px;
+    font-weight: 700;
+}
+.main_content_container{
+    width: 542px;
+    height: 444px;
+    padding: 20px;
+    margin-left: 100px;
+    align-items: center;
+    text-align: right;
+    margin-top: 200px;
+    
+    
+}
+
+.Agate{
+    width: 542px;
+    height: 123px;
+    
+}
+
+.Agate h4{
+    font-family: "Google Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: right;
+    color: rgba(49, 84, 109, 1);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Agate h2{
+    font-family: "Google Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: right;
+    color: rgba(49, 84, 109, 1);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.price {
+    font-size: 48px;
+    color: #6e8efb;
+}
+.old-price {
+    font-size: 24px;
+    text-decoration: line-through;
+    color: #ccc;
+}
+.btn{
+    width: 134px;
+    height: 48px;
+    border-radius: 18px ;
+    border: 2px solid #75CCEB;
+    background-color:  #75CCEB ;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.circle{
+    margin-top: -300px;
+}
+ .agate_container button {
+    background: #6e8efb;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+ }
+ .outer_div{
+    width: 744px;
+height: 744px;
+
+
+ }
+ .outer_div svg{
+    width: 704px;
+    height: 542px;
+    margin-left: 700px;
+    margin-top: -100px;
+    left: 733px;
+    text-align: center;
+    
+ }
+ .inner_div{
+    width: 570px;
+    height: 570px;
+    margin: 0 auto;
+    margin-top: -1000px;
+    margin-right: 120px;
+    
+    
+ }
+ .inner_inner_div{
+    width: 364px;
+    height: 364px;
+    margin: 0 auto;
+    margin-top: -480px;
+    margin-right: 230px;
+ }
+ .circle img{
+    align-items: center;
+    margin-top: -300px;
+    margin-left: 900px;
+ }
+ footer{
+    width: 1440px;
+    height: 269px;
+    margin: 0 auto;
+    background-color: rgba(10, 41, 77, 0.8);
+
+    
+    
+ }
+ .clip_para{
+    width: 1440px;
+    height: 200px;
+    margin-left: 20px;
+    
+ }
+ .clip_para h2{
+    margin-left: 20px;
+    padding:  10px 20px 20px 0;
+    margin: 0;
+    
+    color: rgba(255, 255, 255, 0.737);
+ }
+ .clip_para p{
+    margin: 0;
+    padding: 0;
+
+    color: rgba(255, 255, 255, 0.737);
+    font-weight: 300;
+    font-size: large;
+    box-sizing: border-box;
+
+ }
+ .right{
+    height: 50px;
+    background-color: rgb(95, 95, 236);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: large;
+    word-spacing: normal;
+ }
+ .right span{
+    padding: 8px;
+ }
+
+ 
+ 
+ 
+ 
