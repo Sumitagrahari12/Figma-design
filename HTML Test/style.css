@@ -1,0 +1,886 @@
+body{
+    font-family: 'Roboto', sans-serif,montserrat;
+  
+    background-color: #f5f5f5;
+}
+
+.container{
+    width: 1640px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
+}
+.logo{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+.logo svg{
+    font-size: 24px;
+    margin-left: 80px;  
+}
+.all_link{
+    display:flex;
+    align-items:  center;
+    
+}
+.all_link a{
+    margin: 0 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+}
+.login_regis_btn{
+    width: 280px;
+    height: 40px;
+    margin-right: 30px;
+    
+    
+   
+}
+.login_btn{
+    width: 45%;
+    height: 40px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.register_btn{
+    margin-left: 5%;
+    width: 45%;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 20px;
+}
+/* main */
+.hero{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 1680px;
+    margin: 0 auto;
+}
+.hero img {
+    width: 1680px;
+    height: 600px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero .overlay h1 {
+    font-size: 56px;
+    font-weight: 500;
+    
+}
+.hero .overlay .cta-button {
+    margin-top: 80px;
+    padding: 20px 30px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+/* section*/
+
+.content {
+    padding: 40px 20px;
+    background-color: white;
+    height: 948px;
+    width: 1640px;
+    margin: 0 auto;
+
+}
+.content h2 {
+    height: 144px;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 54px;
+    margin-top: 100px;
+    
+}
+.content .columns {
+   
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 54px;
+    margin-right: 54px
+
+}
+.content .columns .column1 {
+    width: 45%;
+    height: 222px;
+    text-align: left;
+    margin-bottom: 70px;
+}
+.content .columns .column2 {
+    width: 45%;
+    text-align: left;
+    height: 222px;
+}
+.content .columns .column3 {
+    width: 45%;
+    text-align: left;
+    height: 222px;
+}
+.content .columns .column4 {
+    width: 45%;
+    text-align: left;
+    height: 222px;
+}
+.content .columns  h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: -1.5%;
+}
+.columns p{
+   font-size: 24px;
+   padding: 4px;
+}
+.btn{
+    border: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgba(24, 160, 251, 1);
+    font-size: 16px;
+}
+/* section 2*/
+.container1{
+    width: 1680px;
+    height: 1280px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 90px;
+
+}
+.mid_head{
+    text-align: center;
+    padding-top: 100px ;
+    padding-bottom: 20px;
+    font-size: 56px;
+}
+.mid_para{
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+    margin-left: 50px;
+    margin-right: 90px; 
+    
+}
+.text_content{
+      width: 45%;
+      padding: 100px;
+}
+.text_content h3{
+    font-size: 24px;
+}
+.text_content p{
+    font-size: 20px;
+}
+.image_content {
+    width: 45%;
+    
+    
+}
+.image_content img {
+    width: 100%;
+    height: 740px;
+}
+/* section 3*/
+.container2 {
+    width: 1640px;
+    height: 1038px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    margin-top: 100px;
+}
+.header {
+    text-align: center;
+    padding: 50px 0;
+
+}
+.header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 40px;
+}
+.header p {
+    font-size: 36px;
+    color: #666666;
+    margin: 10px 0 0;
+    letter-spacing: -1.5%;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card_content {
+    padding: 20px;
+}
+.card_content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+.card_content p {
+    font-size: 18px;
+    color: #666666;
+    margin: 0;
+}
+  
+.form_section{
+    width: 1680px;
+    margin: 0 auto;
+    background-color: white;
+    height: 961px;
+}
+
+.container3 {
+    text-align: center;
+   
+}
+.container3 h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 120px;
+}
+.container3 p {
+    font-size: 1.8em;
+    color: #666;
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+}
+.signup-form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+    align-items: center;
+    text-align: center;
+}
+.signup-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    
+}
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.signup-form input[type="text"]:nth-child(odd),
+.signup-form input[type="email"]:nth-child(odd),
+.signup-form input[type="password"]:nth-child(odd) {
+    margin-right: 10px;
+}
+.signup-form input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.signup-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    max-width: 1680px;
+    height: 350px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.footer .container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer .logo {
+    display: flex;
+    align-items: center;
+    
+}
+.footer .logo img {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footer .links {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 400px;
+    color: rgba(255, 255, 255, 1);
+
+}
+.footer .links div {
+    margin-right: 40px;
+}
+.footer .links div h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.footer .links div a {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.footer .buttons {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 25px;
+}
+.footer .buttons a {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer .buttons .register {
+    background-color: #007bff;
+    color: #fff;
+}
+.footer .buttons .login {
+    background-color: #fff;
+    color: #333;
+}
+.footer .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin-top: 200px;
+    
+    margin-left: 200px;
+    padding: 0 20px;
+    border-top: 1px solid #444;
+}
+.footer .bottom p {
+    margin: 10px 0;
+    font-size: 12px;
+}
+.footer .bottom .social {
+    display: flex;
+    align-items: center;
+}
+.footer .bottom .social span {
+    margin-right: 10px;
+    font-size: 14px;
+}
+.footer .bottom .social a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%; /* Reduce width to make it fit smaller screens */
+        padding: 10px;
+    }
+
+    .logo svg {
+        margin-left: 20px; /* Adjust the margin for the logo */
+    }
+
+    .all_link a {
+        margin: 0 20px; /* Reduce spacing between links */
+        font-size: 20px; /* Reduce font size */
+    }
+
+    .login_regis_btn {
+        width: 220px;
+    }
+
+    .login_btn, .register_btn {
+        font-size: 18px;
+        height: 35px; /* Reduce button height */
+    }
+}
+
+/* Responsive design for mobile (screens below 768px) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center;
+        align-items: center;
+        height: auto; /* Allow height to adjust automatically */
+    }
+
+    .logo {
+        margin-bottom: 10px; /* Add some space below the logo */
+    }
+
+    .all_link {
+        flex-direction: column; /* Stack the links vertically */
+    }
+
+    .all_link a {
+        margin: 10px 0; /* Add margin between each link */
+        font-size: 18px;
+    }
+
+    .login_regis_btn {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login_btn, .register_btn {
+        width: 45%; /* Keep button size manageable on smaller screens */
+        height: 35px; /* Reduce button height */
+    }
+}
+/*main*/
+
+@media (max-width: 1024px) {
+    .hero {
+        width: 100%; /* Adjust the width to fit smaller screens */
+    }
+
+    .hero img {
+        width: 100%; /* Let the image take full width of the screen */
+        height: auto; /* Let height adjust automatically */
+    }
+
+    .hero .overlay h1 {
+        font-size: 40px; /* Reduce font size for tablets */
+    }
+
+    .hero .overlay .cta-button {
+        padding: 15px 25px; /* Adjust button padding */
+        font-size: 18px; /* Reduce button font size */
+        margin-top: 40px; /* Reduce spacing above the button */
+    }
+}
+
+/* Responsive design for mobile (screens below 768px) */
+@media (max-width: 768px) {
+    .hero {
+        width: 100%;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero .overlay h1 {
+        font-size: 32px; /* Further reduce the heading font size */
+    }
+
+    .hero .overlay .cta-button {
+        padding: 12px 20px; /* Adjust button size */
+        font-size: 16px; /* Smaller font size */
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .content {
+        width: 100%; /* Make the content width fit the screen */
+        padding: 20px; /* Adjust padding */
+    }
+
+    .content h2 {
+        font-size: 36px; /* Reduce the heading font size */
+        margin-left: 20px; /* Reduce margins */
+        margin-top: 60px;
+    }
+
+    .content .columns {
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center;
+    }
+
+    .columns .column1, .columns .column2, .columns .column3, .columns .column4 {
+        width: 100%; /* Make columns full-width */
+        text-align: center; /* Center-align content */
+        margin-bottom: 30px; /* Add spacing between columns */
+    }
+
+    .columns h3 {
+        font-size: 28px; /* Reduce heading size */
+    }
+
+    .columns p {
+        font-size: 20px; /* Adjust paragraph size */
+    }
+
+    .btn {
+        width: 100px; /* Adjust button size */
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+/* Mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .content {
+        padding: 10px;
+    }
+
+    .content h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .columns .column1, .columns .column2, .columns .column3, .columns .column4 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .columns h3 {
+        font-size: 24px; /* Smaller heading for mobile */
+    }
+
+    .columns p {
+        font-size: 18px; /* Smaller paragraph text */
+    }
+
+    .btn {
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container1 {
+        width: 100%; /* Ensure full width on smaller screens */
+        height: auto; /* Make height dynamic */
+        padding: 0 20px; /* Add padding */
+    }
+
+    .mid_head {
+        font-size: 40px; /* Reduce heading size */
+    }
+
+    .mid_para {
+        font-size: 28px; /* Adjust paragraph size */
+        padding-bottom: 50px; /* Reduce bottom padding */
+    }
+
+    .content1 {
+        flex-direction: column; /* Stack content vertically */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .text_content {
+        width: 100%; /* Full width for text content */
+        padding: 50px; /* Reduce padding */
+    }
+
+    .text_content h3 {
+        font-size: 20px; /* Reduce heading size */
+    }
+
+    .text_content p {
+        font-size: 18px; /* Adjust paragraph size */
+    }
+
+    .image_content {
+        width: 100%; /* Full width for image content */
+        margin-top: 30px; /* Add margin to separate text and image */
+    }
+
+    .image_content img {
+        height: auto; /* Ensure image scales dynamically */
+    }
+}
+
+/* Mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .mid_head {
+        font-size: 32px; /* Further reduce heading size */
+        padding-top: 60px; /* Adjust padding */
+    }
+
+    .mid_para {
+        font-size: 24px; /* Reduce paragraph size */
+        padding-bottom: 40px;
+    }
+
+    .text_content {
+        padding: 30px; /* Decrease padding */
+    }
+
+    .text_content h3 {
+        font-size: 18px; /* Adjust heading size */
+    }
+
+    .text_content p {
+        font-size: 16px; /* Smaller paragraph text */
+    }
+
+    .image_content img {
+        height: auto; /* Keep image responsive */
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container2 {
+        width: 100%; /* Full width for tablet */
+        height: auto; /* Dynamic height */
+        padding: 0 20px; /* Add padding */
+    }
+
+    .header h1 {
+        font-size: 36px; /* Smaller font size for header */
+    }
+
+    .header p {
+        font-size: 28px; /* Reduce paragraph font size */
+    }
+
+    .cards {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center;
+    }
+
+    .card {
+        width: 80%; /* Wider cards on tablets */
+        margin-bottom: 30px; /* Space between cards */
+    }
+}
+
+/* Mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 32px; /* Further reduce header size */
+    }
+
+    .header p {
+        font-size: 24px; /* Smaller paragraph text */
+    }
+
+    .cards {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .card {
+        width: 90%; /* Full-width cards on mobile */
+        margin-bottom: 20px; /* Less spacing between cards */
+    }
+
+    .card_content h3 {
+        font-size: 20px; /* Smaller card title */
+    }
+
+    .card_content p {
+        font-size: 16px; /* Adjust paragraph text */
+    }
+}
+@media (max-width: 1024px) {
+    .form_section {
+        width: 100%;
+        height: auto; /* Dynamic height */
+        padding: 20px;
+    }
+
+    .container3 h1 {
+        font-size: 2.5em; /* Reduce heading size */
+        padding-top: 80px;
+    }
+
+    .container3 p {
+        font-size: 1.5em; /* Smaller paragraph size */
+        padding-bottom: 50px;
+    }
+
+    .signup-form {
+        width: 80%; /* Adjust form width */
+    }
+
+    .signup-form input[type="text"],
+    .signup-form input[type="email"],
+    .signup-form input[type="password"] {
+        width: 100%; /* Full width inputs */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .signup-form input[type="submit"] {
+        width: 100%; /* Full width submit button */
+    }
+}
+
+/* Mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .container3 h1 {
+        font-size: 2em; /* Further reduce heading size */
+        padding-top: 60px;
+    }
+
+    .container3 p {
+        font-size: 1.2em; /* Smaller paragraph size */
+        padding-bottom: 40px;
+    }
+
+    .signup-form {
+        width: 90%; /* Slightly narrower form */
+    }
+
+    .signup-form input[type="submit"] {
+        width: 100%; /* Ensure submit button is full width */
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer .container4 {
+        flex-direction: column; /* Stack the sections vertically */
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer .links {
+        margin-left: 0; /* Remove the left margin */
+        margin-top: 20px; /* Add space between sections */
+        flex-direction: column; /* Stack links vertically */
+    }
+
+    .footer .links div {
+        margin-right: 0; /* Remove the right margin */
+        margin-bottom: 20px; /* Add space between sections */
+    }
+
+    .footer .buttons {
+        flex-grow: 0; /* Remove extra space */
+        padding-top: 10px;
+        margin-top: 20px;
+    }
+
+    .footer .bottom {
+        flex-direction: column; /* Stack the social and copyright section */
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .footer .bottom p {
+        margin-bottom: 10px;
+    }
+}
+
+/* Mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .footer {
+        height: auto; /* Allow dynamic height */
+        padding: 40px 20px;
+    }
+
+    .footer .container4 {
+        padding: 0 10px;
+    }
+
+    .footer .links {
+        width: 100%; /* Ensure links take full width */
+        flex-direction: column; /* Stack the link sections */
+        margin-top: 30px;
+    }
+
+    .footer .buttons {
+        width: 100%; /* Full width buttons */
+        margin-top: 20px;
+    }
+
+    .footer .buttons a {
+        width: 100%; /* Full width buttons */
+        padding: 12px;
+    }
+
+    .footer .bottom {
+        margin-top: 40px;
+        flex-direction: column; /* Stack social links and text */
+    }
+
+    .footer .bottom .social {
+        margin-top: 10px; /* Add space between social icons and text */
+    }
+}
